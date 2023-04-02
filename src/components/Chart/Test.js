@@ -74,26 +74,7 @@ const data = {
     ],
 };
 
-// export const data = {
-//     labels,
-//     datasets: [
-//         {
-//             label: "Dataset 1",
-//             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-//             backgroundColor: "rgb(255, 99, 132)",
-//         },
-//         {
-//             label: "Dataset 2",
-//             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-//             backgroundColor: "rgb(75, 192, 192)",
-//         },
-//         {
-//             label: "Dataset 3",
-//             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-//             backgroundColor: "rgb(53, 162, 235)",
-//         },
-//     ],
-// };
+
 
 const Chart = () => {
     return (

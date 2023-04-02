@@ -51,39 +51,39 @@ export const data = {
     labels,
     datasets: [
         {
-            label: "Dataset 1",
+            label: "Paypal",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(255, 99, 132)",
+            backgroundColor: "#625CCC",
             stack:"a"
         },
         {
-            label: "Dataset 2",
+            label: "Fee",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(75, 192, 192)",
+            backgroundColor: "#CA2E66",
             stack:"a"
         },
         {
-            label: "Dataset 3",
+            label: "Cancel",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(53, 162, 235)",
+            backgroundColor: "#FF0000",
             stack:"a"
         },
         {
-            label: "Dataset 1",
+            label: "Stripe",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(255, 99, 132)",
+            backgroundColor: "#0070E0",
             stack:"b"
         },
         {
-            label: "Dataset 2",
+            label: "Fee",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(75, 192, 192)",
+            backgroundColor: "#992D5A",
             stack:"b"
         },
         {
-            label: "Dataset 3",
+            label: "Cancel",
             data: labels.map(() => faker.datatype.number({ min: 0, max: 1000000 })),
-            backgroundColor: "rgb(53, 162, 235)",
+            backgroundColor: "#FF0000",
             stack:"b"
         },
     ],
