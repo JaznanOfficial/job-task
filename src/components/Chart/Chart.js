@@ -91,7 +91,7 @@ export const data = {
 
 const Chart = () => {
     return (
-        <div className="md:w-full w-full bg-white border border-solid rounded-lg p-5 h-[1000px]">
+        <div className="md:w-full w-full bg-white border border-solid rounded-lg p-5">
             <Bar options={options} data={data} />
         </div>
     );

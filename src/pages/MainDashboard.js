@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Filter from "../components/Filter/Filter";
 import ProductsList from "../components/Products/ProductsList";
 import Chart from "../components/Chart/Chart";
+import MapChart from "../components/Map/MapChart";
 
 const MainDashboard = () => {
     return (
@@ -11,6 +12,7 @@ const MainDashboard = () => {
             <Filter />
             <ProductsList />
             <Chart />
+            <MapChart />
         </div>
     );
 };
