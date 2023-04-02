@@ -16,7 +16,7 @@ const MapChart = () => {
     ];
     return (
         <div className="md:w-full w-full bg-white border border-solid rounded-lg p-5">
-            <h1 className="text-sky-500">Top 10 Populous Countries</h1>
+            {/* <h1 className="text-sky-500">Top 10 Populous Countries</h1> */}
             <div className=" flex flex-row justify-center items-center">
                 <div>
                     <WorldMap color="#0065CA" value-suffix="people" data={data} size={"lg"} />
