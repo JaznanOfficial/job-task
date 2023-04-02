@@ -21,14 +21,6 @@ const Filter = () => {
                         className="input w-full focus:bg-white bg-sky-100 text-black"
                     />
                 </div>
-                <div className=" w-full bg-sky-100">
-                    <Datepicker
-                        value={value}
-                        onChange={handleValueChange}
-                        classNames={"bg-sky-100"}
-                    />
-                </div>
-
                 <div className=" w-full">
                     <select className="select w-full focus:bg-white bg-sky-100 text-black">
                         <option disabled selected>
@@ -58,6 +50,13 @@ const Filter = () => {
                         <option>Chittagong</option>
                         <option>Hajara maut</option>
                     </select>
+                </div>
+                <div className=" w-full bg-sky-100 border border-sky-100 rounded-md">
+                    <Datepicker
+                        value={value}
+                        onChange={handleValueChange}
+                        
+                    />
                 </div>
             </div>
         </div>
